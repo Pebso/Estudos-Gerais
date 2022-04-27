@@ -11,6 +11,6 @@ comando cls (limpa a tela)
 ### **Como colocar imagem**
 abre [ e entre eles o nome que quer dar, depois abre ( e coloca o endereço da imagem
 ####  **Ex:**
-ainda tenho que colocar o exemplo de imagem
+ ![Pc Gamer](https://conteudo.imguol.com.br/c/entretenimento/95/2021/02/25/alguns-itens-sao-indispensaveis-para-montar-o-seu-pc-gamer-1614232957829_v2_4x3.jpg)
 ## **Link  explicação das ultimas aulas**
-(https://github.com/profdiegoaugusto/github)
+https://github.com/profdiegoaugusto/github
