@@ -43,3 +43,32 @@ comando cls (limpa a tela)
 *int* para indicar numeros inteiros
 
 *double* para declarar uma variável como sendo um número de ponto flutuante
+
+**exemplo de codigo com numero inteiro**
+
+int x,y;
+
+            x = 5;
+            
+            y = 2 * x;
+
+            console.whriteline(x);
+            console.whriteline(y);
+
+            console.readline ();
+            
+            gerando os resultados 5 e 10.
+            
+mas caso tivessemos que gerar uma resultado com ponto flutuante, acrescnetaria o double. 
+**EX**
+int a, b;
+double resultado;
+
+a = 5;
+b = 2;
+
+resultado = (double) a / b;
+
+para o meu resultado dar 2,5 eu tenho que fazer esse *casting* colocalndo  " (double)" para o meu compilador reconhecer o resultado da expressão.
+
+
