@@ -12,7 +12,7 @@ titutulos são impressos com " # " sendo de 1 a 6 " # ".
 
 para representar alguma palavra ou frase em negrito, basta colocar dois " * * " antes e dois depois da palavra.
 
-**ex**
+## **ex**
 
 **exemplo**
 
@@ -46,7 +46,7 @@ comando cls (limpa a tela)
 
 **exemplo de codigo com numero inteiro**
 
-int x,y;
+    int x,y;
 
             x = 5;
             
@@ -62,20 +62,21 @@ int x,y;
 mas caso tivessemos que gerar uma resultado com ponto flutuante, acrescnetaria o double. 
 **EX**
 
-int a,b;
+    int a,b;
 
-double resultado;
+       double resultado;
 
 
-a = 5;
+        a = 5;
 
-b = 2;
+        
+        b = 2;
 
-resultado = (double) a / b;
+        resultado = (double) a / b;
 
-console.whriteline(resultado);
+        console.whriteline(resultado);
 
-console.readline ();
+        console.readline ();
 
 
 para o meu resultado dar 2,5 eu tenho que fazer esse *casting* colocalndo  " (double)" para o meu compilador reconhecer o resultado da expressão.
