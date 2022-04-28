@@ -68,6 +68,7 @@ double resultado;
 
 
 a = 5;
+
 b = 2;
 
 resultado = (double) a / b;
