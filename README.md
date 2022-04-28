@@ -1,7 +1,7 @@
 # Estudos gerais
 github, C#, Markdown, html, javascript...
 # **Mdown**
-titutulos sao impressos com " # " sendo de 1 a 6 " # ".
+titutulos são impressos com " # " sendo de 1 a 6 " # ".
 **ex** 
 # titulo
 ## titulo
