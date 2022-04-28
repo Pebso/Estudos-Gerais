@@ -14,12 +14,17 @@ para representar alguma palavra ou frase em negrito, basta colocar dois " * * " 
 
 **ex**
 
-**exemplo** **frase totalmente em negrito para exemplo**
+**exemplo**
+
+**frase totalmente em negrito para exemplo**
 
 para colocar em italico o conceito é o mesmo, más coloca-se apensa 1 " * ".
 
 **ex**
-*exemplo* *frase completa em italico para exemplo*
+
+*exemplo* 
+
+*frase completa em italico para exemplo*
 
 ### **Como colocar imagem**
 
