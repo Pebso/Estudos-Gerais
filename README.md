@@ -61,13 +61,21 @@ int x,y;
             
 mas caso tivessemos que gerar uma resultado com ponto flutuante, acrescnetaria o double. 
 **EX**
-int a, b;
+
+int a,b;
+
 double resultado;
+
 
 a = 5;
 b = 2;
 
 resultado = (double) a / b;
+
+console.whriteline(resultado);
+
+console.readline ();
+
 
 para o meu resultado dar 2,5 eu tenho que fazer esse *casting* colocalndo  " (double)" para o meu compilador reconhecer o resultado da expressão.
 
