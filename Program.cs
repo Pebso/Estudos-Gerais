@@ -1,0 +1,29 @@
+﻿// See https://aka.ms/new-console-template for more information
+
+
+string frase = Console.ReadLine();
+string x = Console.ReadLine();
+string y = Console.ReadLine();
+string z = Console.ReadLine();
+
+string s = Console.ReadLine();
+
+string[] vet = s.Split(' ');
+
+string a = vet[0];
+string b = vet[1];
+string c = vet[2];
+ 
+
+
+
+Console.WriteLine("Você digitou");
+Console.WriteLine(frase);
+Console.WriteLine(x);
+Console.WriteLine(y);   
+Console.WriteLine(z);
+Console.WriteLine(a);
+Console.WriteLine(b);
+Console.WriteLine(c);
+
+
