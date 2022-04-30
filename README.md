@@ -1,6 +1,28 @@
 # Estudos gerais
-github, C#, Markdown, html, javascript...
-# **Mdown**
+Github, Markdown, C#, html, javascript...
+# **Git Hub**
+## Como enviar ou atualizar repositorios github( após git e git hub já configurados)
+
+### Dentro da pasta onde estão os arquivos executar o gitbash
+comandos
+
+* git init - para iniciar o repositorio
+
+* git status - para ver os arquivos que ainda nao foram commitados
+
+* git add (arquivo especifico)- para um arquivo
+   * git add . - para incluir todos os arquivos listados
+
+* git commit  -  adiciona as alterações para o histórico do repositório
+  * git commit -m - adiciono descrição das mudanças feitas
+* git push -u origin - para encaminhar as mudanças commitadas p/ GitHub,
+no meu caso git push -u origin main
+
+
+
+
+
+# **Markdown**
 titutulos são impressos com " # " sendo de 1 a 6 " # ".
 **ex** 
 # titulo
