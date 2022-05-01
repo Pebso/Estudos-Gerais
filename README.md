@@ -121,7 +121,7 @@ Objetivos:
 * Ler três palavras, uma em cada linha, armazenando cada uma em uma variavel
 * Ler três palavras na mesma linha, separando por espaço, armazenando cada uma em uma variável
 
-Código do exercicio feito
+Código do exercicio 1 feito
 
 
                  string frase = Console.ReadLine();
@@ -149,3 +149,53 @@ Código do exercicio feito
                  Console.WriteLine(b);
                  Console.WriteLine(c);
 
+------------------------------------ 
+# Exercicio 2 C#
+
+Antes de qualquer coisa, este exercicio foi meu primeiro codigo sem colar, por mais simples que seja fico feliz em ver minha propria evolução!
+
+O objetivo do exercicio era 
+* Ler um numero inteiro 
+* Ler um caractere
+* Ler um numero double
+* Ler um nome (unica palavra), sexo( caractere F ou M), idade (inteiro e altura (double) na mesma linha, armazinando-os em quatro variaveis com os devidos tipos.
+
+Bom, primeiro eu codei tudo com o comando **Console.Readline**, separei os espaços com vetores certinho, só que ainda ficava dando erro. Por que? Porque o **Console.Readline** lê a informação em forma de string, ou seja no **n1** ele estaria interpretando como um texto **3 5** e nao um inteiro **35**. Então eu faço uma conversão de tipos, de string para inteiro, então eu uso o comando **int.Parse**. 
+
+ _Parse_ = analisar.
+
+Usei o mesmo conceito para totodos os outros, sendo **double** **char** ou **int**.
+
+ps: erros de digitação podem quebrar o programa, mas até então o tratamento desse problema não era o intuito do exercicio. 
+
+
+Console.WriteLine("Bom dia!");
+
+string frase = Console.ReadLine();
+
+int n1 = int.Parse (Console.ReadLine());
+char ch = char.Parse (Console.ReadLine());
+double n2 = double.Parse (Console.ReadLine());
+
+string s = Console.ReadLine();
+
+string[] vet = s.Split(' ');
+
+string nome = vet[0];
+char sexo = char.Parse (vet[1]);
+int idade = int.Parse (vet[2]);
+double altura = double.Parse (vet[3]);
+
+double valor1 = 0;
+double valor2 = 0;
+
+
+Console.WriteLine("Você digitou");
+Console.WriteLine(frase);
+Console.WriteLine(n1);
+Console.WriteLine(ch);
+Console.WriteLine(n2);
+Console.WriteLine(nome);
+Console.WriteLine(sexo);
+Console.WriteLine(idade);
+Console.WriteLine(altura);
