@@ -209,3 +209,58 @@ ps: erros de digitação podem quebrar o programa, mas até então o tratamento 
     Console.WriteLine(sexo);
     Console.WriteLine(idade);
     Console.WriteLine(altura);
+
+
+
+ # Exercicio 3 C#
+
+### Objetivo do exercício:
+
+![imagem exercicio](https://i.ibb.co/1QTWMs5/exercicio-3.jpg)
+
+
+### Primeiro eu fiz o exercicio como pediu, e depois eu fiz um "extra" formatando o código para interação direta com o usuário. Pode até estar errado, mas foi assim que eu fiz...
+
+## Código do exercicio 
+
+    Console.WriteLine("Bom Dia!");
+    string a = Console.ReadLine();
+    int b = int.Parse (Console.ReadLine());
+    string c = (Console.ReadLine());
+
+    string s = Console.ReadLine();
+
+    string[] vet = s.Split(' ');
+
+    string nome = vet[0];
+    int  idade = int.Parse (vet[1]);
+    double altura = double.Parse (vet[2]);
+
+    Console.WriteLine("Você digitou");
+    Console.WriteLine(a);   
+    Console.WriteLine(b);
+    Console.WriteLine(c);
+    Console.WriteLine(nome);
+    Console.WriteLine(idade);
+    Console.WriteLine(altura);
+
+## Código do exercicio formatado, de forma que as perguntas aparecem na tela para o usuário responder.
+
+    Console.WriteLine("Bom Dia!");
+    Console.WriteLine("Nome completo");
+    string a = Console.ReadLine();
+    Console.WriteLine("Quantos quartos tem na sua casa?");
+    int b = int.Parse(Console.ReadLine());
+    Console.WriteLine("Preço de um produto que comprou recentemente:");
+    string c = (Console.ReadLine());
+    Console.WriteLine("Entre seu ultimo nome, idade e altura");
+    string s = Console.ReadLine();
+
+    string[] vet = s.Split(' ');
+
+    string nome = vet[0];
+    int idade = int.Parse(vet[1]);
+    double altura = double.Parse(vet[2]);
+
+
+
