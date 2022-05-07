@@ -262,5 +262,40 @@ ps: erros de digitação podem quebrar o programa, mas até então o tratamento 
     int idade = int.Parse(vet[1]);
     double altura = double.Parse(vet[2]);
 
+# Exercicio 4 C# Programa para Calculo de Área e Valor de terrenos
+
+Fazer um programa para ler as medidas da largura e o comprimento de um terreno retangular com uma casa decimal, bem como o valor do metro quadrado do terreno com duas casas decimais.
+
+    using System.Globalization;
+    Console.WriteLine("Pressione ENTER para iniciar");
+    double largura, comprimento, precoMetroQuadrado, area, preco;
+    Console.ReadLine();
+    Console.WriteLine("Largura");
+    largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    Console.WriteLine("comprimento");
+    comprimento = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    Console.WriteLine("Preço do Metro Quadrado");
+    precoMetroQuadrado = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    Console.WriteLine("Resultado:");
+    area = largura * comprimento;
+    preco = area * precoMetroQuadrado;
+    Console.WriteLine("AREA = " + area.ToString("F2", CultureInfo.InvariantCulture));
+    Console.WriteLine("Preço = " + preco.ToString("F2", CultureInfo.InvariantCulture));
+
+# Funções Matemáticas em C#
+###   **Exemlpo**------- ------- **Significado**
+ A = Math.sqrt(x);  Váriavel A recebe a raiz quadrada de x
+
+ A = Math.pow(x,y); Variavel A recebe o resultado de x elevado a y
+
+ A = Math.Abs(x);   Variavel A recebe o valor absoluto de x
+
+* sqrt - raiz quadrada
+* pow  - potencialização
+* abs  - valor absoluto (sem sinal)
+
+* "F2" significa que serão impressar duas casas após o. "F3" três casas etc...
+* using System.Globalization para o programar ler . e , 
+
 
 
