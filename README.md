@@ -297,5 +297,63 @@ Fazer um programa para ler as medidas da largura e o comprimento de um terreno r
 * "F2" significa que serão impressar duas casas após o. "F3" três casas etc...
 * using System.Globalization para o programar ler . e , 
 
+# Exercicios de fixação C#
+## Calculando área de um ciculo 
+
+ ### A fórmula para calcular a área de uma circunferência é: area = π . raio2. Considerando para este problema que π = 3.14159:
+  
+    using System.Globalization;
+    Console.ReadLine();
+    double r, A, pi = 3.14159;
+    r = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    A = pi * r * r;
+    Console.WriteLine("A=" + A.ToString("F4", CultureInfo.InvariantCulture));
+A = pi * r * r representa,  area = pi . raio2.
 
 
+### Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
+
+    Console.ReadLine();
+    int A, B, SOMA;
+    A = int.Parse(Console.ReadLine());
+    B = int.Parse(Console.ReadLine());
+    SOMA = A + B;
+    Console.WriteLine("Soma =" + SOMA);
+
+
+### Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente. 
+
+    Console.ReadLine();
+    int A, B, PROD;
+    A = int.Parse(Console.ReadLine());
+    B = int.Parse(Console.ReadLine ());
+    PROD = A * B;
+    Console.WriteLine("PROD =" + PROD);
+
+
+### Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
+
+
+### Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
+    using System;
+    using System.Globalization;
+
+
+    Console.ReadLine();
+    double A, B, MEDIA;
+    A = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    B = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+
+    MEDIA = ((A * 3.5) + (B * 7.5)) / 11;
+
+    Console.WriteLine("MEDIA = " + MEDIA.ToString("F5", CultureInfo.InvariantCulture));
+
+  Aqui eu represento a expressão de média
+  ## ex: a = 5,0 e b = 7,1  
+   MEDIA = ((A * 3.5) + (B * 7.5)) / 11;
+
+   5,0 * 3,5 = 17,5
+   
+   7,1 * 7,5 = 53,25
+
+Somo os valores e duvido por 11. 11 é a soma dos pesos 7,5 e 3,5.
