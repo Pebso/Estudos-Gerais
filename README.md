@@ -23,7 +23,7 @@ no meu caso git push -u origin main
 
 
 # **Markdown**
-titutulos são impressos com " # " sendo de 1 a 6 " # ".
+titutulos são impressos com " # " sendo de 1 a 6 " # ". ... ... 
 **ex** 
 # titulo
 ## titulo
@@ -355,3 +355,5 @@ A = pi * r * r representa,  area = pi . raio2.
    7,1 * 7,5 = 53,25
 
 Somo os valores e duvido por 11. 11 é a soma dos pesos 7,5 e 3,5.
+
+alteração teste tal tal tal 
