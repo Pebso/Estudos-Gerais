@@ -298,7 +298,7 @@ Fazer um programa para ler as medidas da largura e o comprimento de um terreno r
 * using System.Globalization para o programar ler . e , 
 
 # Exercicios de fixação C#
-## Calculando área de um ciculo 
+## Calculando área de um circulo 
 
  ### A fórmula para calcular a área de uma circunferência é: area = π . raio2. Considerando para este problema que π = 3.14159:
   
@@ -333,8 +333,6 @@ A = pi * r * r representa,  area = pi . raio2.
 
 ### Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
-
-### Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
     using System;
     using System.Globalization;
 
