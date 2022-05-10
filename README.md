@@ -356,4 +356,4 @@ A = pi * r * r representa,  area = pi . raio2.
 
 Somo os valores e duvido por 11. 11 é a soma dos pesos 7,5 e 3,5.
 
-alteração teste tal tal tal 
+FINAL DA EXPLICAÇÃO.
