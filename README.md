@@ -298,7 +298,7 @@ Fazer um programa para ler as medidas da largura e o comprimento de um terreno r
 * using System.Globalization para o programar ler . e , 
 
 # Exercicios de fixação C#
-## Calculando área de um circulo 
+## 1. Calculando área de um circulo 
 
  ### A fórmula para calcular a área de uma circunferência é: area = π . raio2. Considerando para este problema que π = 3.14159:
   
@@ -311,7 +311,7 @@ Fazer um programa para ler as medidas da largura e o comprimento de um terreno r
 A = pi * r * r representa,  area = pi . raio2.
 
 
-### Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
+### 2. Leia dois valores inteiros, no caso para variáveis A e B. A seguir, calcule a soma entre elas e atribua à variável SOMA. A seguir escrever o valor desta variável.
 
     Console.ReadLine();
     int A, B, SOMA;
@@ -321,7 +321,7 @@ A = pi * r * r representa,  area = pi . raio2.
     Console.WriteLine("Soma =" + SOMA);
 
 
-### Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente. 
+### 3. Leia dois valores inteiros. A seguir, calcule o produto entre estes dois valores e atribua esta operação à variável PROD. A seguir mostre a variável PROD com mensagem correspondente. 
 
     Console.ReadLine();
     int A, B, PROD;
@@ -331,7 +331,7 @@ A = pi * r * r representa,  area = pi . raio2.
     Console.WriteLine("PROD =" + PROD);
 
 
-### Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
+### 4. Leia 2 valores de ponto flutuante de dupla precisão A e B, que correspondem a 2 notas de um aluno. A seguir, calcule a média do aluno, sabendo que a nota A tem peso 3.5 e a nota B tem peso 7.5 (A soma dos pesos portanto é 11). Assuma que cada nota pode ir de 0 até 10.0, sempre com uma casa decimal.
 
     using System;
     using System.Globalization;
@@ -354,6 +354,41 @@ A = pi * r * r representa,  area = pi . raio2.
    
    7,1 * 7,5 = 53,25
 
-Somo os valores e duvido por 11. 11 é a soma dos pesos 7,5 e 3,5.
+Somo os valores e divido por 11. 11 é a soma dos pesos 7,5 e 3,5.
 
-FINAL DA EXPLICAÇÃO.
+
+### 5. Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
+
+    Console.ReadLine();
+    int A, B, C, D, DIFERENCA, proda, prodb;
+    A = int.Parse(Console.ReadLine());
+    B = int.Parse(Console.ReadLine());
+    C = int.Parse(Console.ReadLine());
+    D = int.Parse(Console.ReadLine());
+    proda = A * B;
+    prodb = C * D;
+    DIFERENCA = proda - prodb;
+    Console.WriteLine("DIFERENCA = " + DIFERENCA);
+    Console.ReadLine();
+
+
+### 6.Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
+
+**Entrada**
+O arquivo de entrada contém 2 números inteiros e 1 número com duas casas decimais, representando o número, quantidade de horas trabalhadas e o valor que o funcionário recebe por hora trabalhada, respectivamente.
+
+**Saída**
+Imprima o número e o salário do funcionário, conforme exemplo fornecido, com um espaço em branco antes e depois da igualdade. No caso do salário, também deve haver um espaço em branco após o $.
+
+
+    using System.Globalization;
+    Console.ReadLine();
+    int numero, horas;
+    double valor, salar;
+    numero = int.Parse(Console.ReadLine());
+    horas = int.Parse(Console.ReadLine());
+    valor  =  double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    salar = horas * valor;
+    Console.ReadLine();
+    Console.WriteLine("NUMERO  = " + numero);
+    Console.WriteLine("Salario = R$ " + salar.ToString("F2", CultureInfo.InvariantCulture));
