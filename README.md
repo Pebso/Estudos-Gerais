@@ -1,5 +1,5 @@
 # Estudos gerais
-Github, Markdown, C#, html, javascript...
+Github, Markdown, C#...
 # **Git Hub**
 ## Como enviar ou atualizar repositorios github( após git e git hub já configurados)
 
