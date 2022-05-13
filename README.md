@@ -1,7 +1,7 @@
 # Estudos gerais em C#
-*int* para indicar numeros inteiros
+*int* para indicar numeros inteiros.
 
-*double* para declarar uma variável como sendo um número de ponto flutuante
+*double* para declarar uma variável como sendo um número de ponto flutuante.
 
 **exemplo de codigo com numero inteiro**
 
