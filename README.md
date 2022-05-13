@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 # Estudos gerais em C#
 *int* para indicar numeros inteiros.
 
 *double* para declarar uma variável como sendo um número de ponto flutuante.
+=======
+# Estudos gerais
+# **c#**
+*int* para indicar numeros inteiros
+
+*double* para declarar uma variável como sendo um número de ponto flutuante
+>>>>>>> 6ff05400a44afcc606e50307671ca5989b44ce45
 
 **exemplo de codigo com numero inteiro**
 
