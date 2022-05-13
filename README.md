@@ -1,6 +1,4 @@
 # Estudos gerais em C#
-
-# **C#**
 *int* para indicar numeros inteiros
 
 *double* para declarar uma variável como sendo um número de ponto flutuante
