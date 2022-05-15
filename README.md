@@ -296,7 +296,7 @@ A = pi * r * r representa,  area = pi . raio2.
 
 Somo os valores e divido por 11. 11 é a soma dos pesos 7,5 e 3,5.
 
-
+# Média ponderada
 ### 5. Leia quatro valores inteiros A, B, C e D. A seguir, calcule e mostre a diferença do produto de A e B pelo produto de C e D segundo a fórmula: DIFERENCA = (A * B - C * D).
 
     Console.ReadLine();
@@ -311,7 +311,7 @@ Somo os valores e divido por 11. 11 é a soma dos pesos 7,5 e 3,5.
     Console.WriteLine("DIFERENCA = " + DIFERENCA);
     Console.ReadLine();
 
-
+# Média ponderada
 ### 6.Escreva um programa que leia o número de um funcionário, seu número de horas trabalhadas, o valor que recebe por hora e calcula o salário desse funcionário. A seguir, mostre o número e o salário do funcionário, com duas casas decimais.
 
 **Entrada**
@@ -332,3 +332,55 @@ Imprima o número e o salário do funcionário, conforme exemplo fornecido, com 
     Console.ReadLine();
     Console.WriteLine("NUMERO  = " + numero);
     Console.WriteLine("Salario = R$ " + salar.ToString("F2", CultureInfo.InvariantCulture));
+
+
+ 
+ ### Neste problema, deve-se ler o código de uma peça 1, o número de peças 1, o valor unitário de cada peça 1, o código de uma peça 2, o número de peças 2 e o valor unitário de cada peça 2. Após, calcule e mostre o valor a ser pago.
+
+    using System.Globalization;
+    int codigo, numero, codigo2, numero2;
+    double valor, valor2, preco, preco2, vp;
+    codigo = int.Parse(Console.ReadLine());
+    numero = int.Parse(Console.ReadLine());
+    valor = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture); 
+    codigo2 = int.Parse(Console.ReadLine());
+    numero2 = int.Parse(Console.ReadLine());
+    valor2 = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    preco = valor * numero;
+    preco2 = valor2 * numero2;
+    vp = preco + preco2;
+    Console.WriteLine("VALOR A PAGAR: R$ " + vp.ToString("F2", CultureInfo.InvariantCulture));
+    Console.ReadLine();
+
+# Calcule o consumo médio de um automóvel sendo fornecidos a distância total percorrida (em Km) e o total de combustível gasto (em litros).
+**Entrada**
+O arquivo de entrada contém dois valores: um valor inteiro X representando a distância total percorrida (em Km), e um valor real Y representando o total de combustível gasto, com um dígito após o ponto decimal.
+
+**Saída**
+Apresente o valor que representa o consumo médio do automóvel com 3 casas após a vírgula, seguido da mensagem "km/l".   
+
+    using System.Globalization;
+    Console.ReadLine();
+    int X;
+    double Y, combustivel, combreal;
+    X = int.Parse(Console.ReadLine());
+    Y = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+    combustivel = X / Y;
+    combreal = Math.Abs(combustivel);
+    Console.WriteLine(combreal.ToString("F3") + " km/l");
+
+ Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h. 
+ 
+ Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do carro X, ou seja, consegue se afastar um quilômetro a cada 2 minutos.
+
+Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o carro Y tomar essa distância do outro carro.
+
+**Entrada**
+
+O arquivo de entrada contém um número inteiro.
+
+**Saída**
+
+Imprima o tempo necessário seguido da mensagem "minutos".
+    
+    
