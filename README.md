@@ -369,18 +369,23 @@ Apresente o valor que representa o consumo médio do automóvel com 3 casas apó
     combreal = Math.Abs(combustivel);
     Console.WriteLine(combreal.ToString("F3") + " km/l");
 
- Dois carros (X e Y) partem em uma mesma direção. O carro X sai com velocidade constante de 60 Km/h e o carro Y sai com velocidade constante de 90 Km/h. 
- 
- Em uma hora (60 minutos) o carro Y consegue se distanciar 30 quilômetros do carro X, ou seja, consegue se afastar um quilômetro a cada 2 minutos.
-
-Leia a distância (em Km) e calcule quanto tempo leva (em minutos) para o carro Y tomar essa distância do outro carro.
+### calcular e mostrar a quantidade de litros de combustível gastos em uma viagem, ao utilizar um automóvel que faz 12 KM/L. Para isso, ele gostaria que você o auxiliasse através de um simples programa. Para efetuar o cálculo, deve-se fornecer o tempo gasto na viagem (em horas) e a velocidade média durante a mesma (em km/h). Assim, pode-se obter distância percorrida e, em seguida, calcular quantos litros seriam necessários. Mostre o valor com 3 casas decimais após o ponto.
 
 **Entrada**
-
-O arquivo de entrada contém um número inteiro.
+O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na viagem (em horas) e o segundo é a velocidade média durante a mesma (em km/h).
 
 **Saída**
+Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal.
 
-Imprima o tempo necessário seguido da mensagem "minutos".
-    
+    using System.Globalization;
+    int tempo, velocidade, kml; 
+    double gasto, gasto1;
+    tempo = int.Parse(Console.ReadLine());
+    velocidade = int.Parse(Console.ReadLine());
+    kml = 12;
+    gasto = tempo * velocidade;
+    gasto1 = gasto / kml;
+    Console.WriteLine("Gasolina necessária: " + gasto1.ToString("F3", CultureInfo.InvariantCulture)); 
+
+##
     
